@@ -1,6 +1,6 @@
 {
-  "name": "siddhi-get-well-site",
-  "version": "0.1.0",
+  "name": "siddhi-get-well-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -8,10 +8,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^10.16.1",
-    "lucide-react": "^0.271.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@shadcn/ui": "^0.3.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "framer-motion": "^10.16.3",
+    "lucide-react": "^0.291.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
     "vite": "^5.0.0"
   }
 }
